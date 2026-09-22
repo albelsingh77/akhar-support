@@ -25,6 +25,12 @@
     .app-icon { display: block; width: 100%; max-width: 180px; height: auto; border-radius: 22%; box-shadow: 0 12px 30px #08162b40; }
     main { padding-block: 42px 60px; }
     .intro { max-width: 68ch; margin: 0 0 38px; color: var(--muted); }
+    .purpose { max-width: 78ch; margin-bottom: 48px; }
+    .purpose p { margin-block: 18px; }
+    .examples { padding-left: 1.3em; margin-block: 22px; }
+    .examples li { padding-left: 0.3em; margin-block: 20px; }
+    .examples li::marker { color: var(--gold); }
+    .accuracy { border-left: 3px solid var(--gold); padding: 12px 20px; background: #f0eadb; }
     h2 { font-size: 1.65rem; line-height: 1.25; letter-spacing: -0.02em; margin: 0 0 22px; }
     p { margin: 0.8rem 0; }
     details { border-top: 1px solid var(--line); padding: 19px 0; }
@@ -69,9 +75,22 @@
   <main class="wrap">
     <p class="intro">ਅਖਰ brings the SGGS source, local search, recurring-word evidence and a personal notebook together. This page supports the offline iPhone and iPad edition, published by Albel Singh.</p>
 
-    <section aria-labelledby="purpose-title" style="margin-bottom:38px">
-      <h2 id="purpose-title">From curiosity to careful study</h2>
-      <p>ਅਖਰ brings source search, contextual reading, word comparison, quotation checking and an evolving private glossary into one workspace. A teacher can build a discussion around contributing passages; a writer can check a quotation against the original SGGS PDF; and a reader can preserve how their understanding of a word develops over time.</p>
+    <section class="purpose" aria-labelledby="purpose-title">
+      <h2 id="purpose-title">From curiosity to thoughtful study</h2>
+      <p><strong>ਅਖਰ helps readers turn a moment of curiosity into a sustained, thoughtful study of Gurbani.</strong></p>
+      <p>A word encountered during reading can open deeper questions: Where else does it appear? Which words repeatedly accompany it? How does its context change? What might these passages invite me to reconsider in my own life?</p>
+      <p>Following those questions requires finding references, comparing passages, checking the original source and preserving observations. ਅਖਰ brings these activities into one accessible workspace on iPhone and iPad.</p>
+      <p><strong>The gap it fills is the distance between finding a passage and developing an understanding that can be examined, supported and revisited.</strong> Readers can move from a word to its occurrences, from a pattern to its supporting passages, and from an observation to a growing personal glossary. The source remains close at hand throughout.</p>
+      <p>Practical examples of its value include:</p>
+      <ul class="examples">
+        <li><strong>Preparing a study-group discussion.</strong> A teacher exploring <strong><span lang="pa">ਗੁਰਮੁਖਿ</span> and <span lang="pa">ਮਨਮੁਖਿ</span></strong> can compare the words and inspect passages containing both. With exact spelling and the same-source-line setting, the current index returns <strong>24 contributing passages</strong>. These provide concrete material for discussion, with context available for every example.</li>
+        <li><strong>Developing an understanding of <span lang="pa">ਨਾਮੁ</span> over time.</strong> A reader can gather passages, preserve separate contextual readings and record their personal significance. Dated revisions retain earlier reflections, making it possible to follow how further reading changes their understanding and practice.</li>
+        <li><strong>Finding a remembered passage despite spelling differences.</strong> Someone who remembers <strong lang="pa">ਸੰਤ</strong> can explore observed forms such as <strong lang="pa">ਸੰਤੁ</strong>, inspect their occurrences and compare the actual source wording. This makes research more accessible when a reader cannot recall every vowel modifier.</li>
+        <li><strong>Preparing a quotation for a talk, article or lesson.</strong> A writer can locate a passage, read its surrounding context, check the highlighted original PDF and share a quotation with its <strong>SGGS · Ang</strong> reference.</li>
+        <li><strong>Exploring a relationship between separated words.</strong> Two words can be searched within a line, adjoining lines or an inferred whole shabad, making connections easier to investigate even when the words do not form a consecutive phrase.</li>
+      </ul>
+      <p>Its living glossary gives this research continuity: observations, source evidence, open questions and reflections on daily life can grow together. The app is free, works offline and keeps personal notes on the device.</p>
+      <p class="accuracy">The app’s current connections are <strong>patterns for investigation</strong>: occurrence counts and nearby words provide evidence, while grammatical and interpretive conclusions remain the reader’s work.</p>
     </section>
 
     <section id="help" aria-labelledby="help-title">
