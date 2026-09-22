@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Help and support for ਅਖਰ, the free offline source-study app for iPhone and iPad.">
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%226%22%20fill%3D%22%23142a43%22%2F%3E%3Cpath%20d%3D%22M6%209Q11%207%2015%2011V25Q10%2021%206%2023ZM26%209Q21%207%2017%2011V25Q22%2021%2026%2023Z%22%20fill%3D%22%23c8a75b%22%2F%3E%3C%2Fsvg%3E">
+  <link rel="icon" type="image/png" sizes="1024x1024" href="akhar-icon.png">
+  <link rel="apple-touch-icon" href="akhar-icon.png">
   <title>Support · ਅਖਰ</title>
   <style>
     :root { color-scheme: light; --navy: #142a43; --gold: #c8a75b; --paper: #faf8f2; --line: #ddd7c9; --muted: #526273; }
@@ -21,7 +22,7 @@
     .eyebrow { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.11em; text-transform: uppercase; color: var(--gold); }
     h1 { max-width: 14ch; font-size: clamp(2.5rem, 6vw, 4.5rem); line-height: 1.07; letter-spacing: -0.035em; margin: 18px 0 25px; }
     .lead { max-width: 48ch; font-size: 1.1rem; color: #dce2e8; }
-    .book { width: 100%; height: auto; color: var(--gold); }
+    .app-icon { display: block; width: 100%; max-width: 180px; height: auto; border-radius: 22%; box-shadow: 0 12px 30px #08162b40; }
     main { padding-block: 42px 60px; }
     .intro { max-width: 68ch; margin: 0 0 38px; color: var(--muted); }
     h2 { font-size: 1.65rem; line-height: 1.25; letter-spacing: -0.02em; margin: 0 0 22px; }
@@ -42,7 +43,7 @@
       nav { align-items: flex-start; gap: 14px; }
       .navlinks { gap: 16px; }
       .hero { grid-template-columns: 1fr; padding-block: 28px 40px; }
-      .book { display: none; }
+      .app-icon { width: 120px; }
       .contact { padding: 22px; }
     }
     @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
@@ -61,12 +62,7 @@
           <h1>Stay close to the source.</h1>
           <p class="lead">Search Gurbani, follow recurring words and keep space for your understanding to grow.</p>
         </div>
-        <svg class="book" viewBox="0 0 200 200" fill="none" aria-hidden="true" focusable="false">
-          <path d="M34 62C56 54 79 60 95 72V167C76 153 54 149 34 154V62Z M166 62C144 54 121 60 105 72V167C124 153 146 149 166 154V62Z" fill="currentColor"/>
-          <path d="M47 87C59 84 71 89 82 94 M47 110C59 107 71 112 82 117 M47 133C59 130 71 135 82 140 M153 87C141 84 129 89 118 94 M153 110C141 107 129 112 118 117 M153 133C141 130 129 135 118 140" stroke="#142a43" stroke-width="5" stroke-linecap="round"/>
-          <path d="M26 76V164C50 158 77 163 100 179C123 163 150 158 174 164V76 M68 33L100 19L132 33" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-          <g fill="currentColor"><circle cx="68" cy="33" r="6"/><circle cx="100" cy="19" r="6"/><circle cx="132" cy="33" r="6"/></g>
-        </svg>
+        <img class="app-icon" src="akhar-icon.png" width="1024" height="1024" alt="ਅਖਰ app icon: gold Gurmukhi lettering on navy">
       </div>
     </div>
   </header>
